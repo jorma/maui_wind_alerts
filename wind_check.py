@@ -79,7 +79,7 @@ def SendEmail(name,emailAddr,emailBody):
 	msg['Subject'] = 'Email Alert: Calm day in Lahaina'
 
 	conn = smtplib.SMTP('mail.minustide.net')
-	conn.login('jorma@minustide.net', 'l0wtid3')
+	conn.login('jorma@minustide.net', 'xxxxxxxx')
 	conn.sendmail(msg['From'], msg['To'], msg.as_string())
 	conn.quit()
 

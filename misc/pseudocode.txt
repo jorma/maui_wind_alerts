@@ -8,6 +8,6 @@
 		
 3) divide counter# / total number in array
 
-	if % is > 90%:
+	if % is > 50%:
 		- send email
 		
